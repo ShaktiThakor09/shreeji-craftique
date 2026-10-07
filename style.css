@@ -23,6 +23,21 @@ button{font:inherit}
 nav{display:flex;gap:24px;font-size:14px}
 nav a:hover{color:var(--wine)}
 .nav-wa,.btn.primary{background:var(--wine);color:#fff;padding:11px 17px;border-radius:999px;border:1px solid var(--gold);box-shadow:0 6px 18px rgba(126,18,13,.18)}
+.nav-ig{
+  background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);
+  color:#fff;
+  padding:11px 17px;
+  border-radius:999px;
+  border:1px solid var(--gold);
+  box-shadow:0 6px 18px rgba(131,58,180,.20);
+  white-space:nowrap;
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+
+.nav-ig:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 22px rgba(131,58,180,.30);
+}
 .hero{max-width:1200px;margin:auto;padding:60px 5%;display:grid;grid-template-columns:1fr .8fr;gap:45px;align-items:center}
 .eyebrow{color:var(--gold);font-size:12px;font-weight:bold;letter-spacing:2.5px;margin:0 0 12px}
 h1{font-size:clamp(42px,6vw,76px);line-height:.98;color:var(--wine);margin:0 0 22px}
